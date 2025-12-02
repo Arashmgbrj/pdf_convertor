@@ -43,10 +43,11 @@ python pdf_to_word.py --gui
 
 
 
-from pdf2docx import Converter
-
-def convert_pdf_to_word(pdf_path, docx_path):
     """
+    
+    from pdf2docx import Converter
+
+    def convert_pdf_to_word(pdf_path, docx_path):
     تبدیل فایل PDF به Word
     
     پارامترها:
@@ -68,6 +69,4 @@ def convert_pdf_to_word(pdf_path, docx_path):
     except Exception as e:
         print(f"❌ خطا در تبدیل: {str(e)}")
         return False
-
-# استفاده از تابع
-convert_pdf_to_word("input.pdf", "output.docx")
+    convert_pdf_to_word("input.pdf", "output.docx")
